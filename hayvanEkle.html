@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <title>Hayvan Ekleme Formu</title>
+            <!--<link href="index.css" type="text/css" rel="stylesheet">-->
+            <meta charset="utf-8" />
+            <style type="text/css">
+                body{
+                    background: url("arka.png");
+                    font-size:13px;
+                    font-family:Trebuchet MS;
+                }
+                #kayitFormu{
+                    border-radius:10px;
+                    background:#ffffff;
+                    width:360px;
+                    margin:auto;
+                    margin-top:20px;
+                    padding:15px;
+                    text-align:center;
+                    -webkit-box-shadow:0 0 65px rgba(62, 117, 67, 0.842);
+                    -moz-box-shadow:0 0 65px rgb(77, 182, 64);
+                    box-shadow:0 0 65px rgba(36, 114, 69, 0.603);
+                }
+                input, button
+                {
+                    border-radius:5px;
+                    border:none;
+                    width:300px;
+                    height:50px;
+                    margin:20px 0px 20px 0px;
+                    background:rgba(240,240,240,.5);
+                    padding-left:15px;
+                    font-style:italic;
+                    
+                }
+                
+                .btn{
+                    background:#f36868;
+                    color:white;
+                }
+                h3{
+                    color:rgb(250, 125, 125);
+                    text-transform:uppercase;
+                    font-size:18px;
+                }
+                
+            </style>
+      </head>
+      <body background="arka.png">
+            <div id="kayitFormu">
+                <form action="hayvanKaydet.php" method="post">
+                    <span class="hUc"><h3>Hayvan Ekleme Formu</h3></span>
+                    <span class="tc">Hayvan İsmi Giriniz</span><br>
+                    <input type="text" name="isim" placeholder="İsim" required/><br>
+                    <span class="tc">Doğum Tarihi Seçiniz</span><br>
+                    <input type="date" name="tarih" placeholder="Doğum Tarihi" required/><br>
+                    <span class="tc">Tür Giriniz</span><br>
+                    <input type="text" name="tur" placeholder="Kedi, Köpek vb." required/><br>
+                    <span class="tc">Cins Seçiniz</span><br>
+                    <input type="text" name="cins" placeholder="Tekir, Alman Kurdu vb." required /><br>
+                    <span class="yazi">Alerjiler</span><br>
+                    <input type="text" name="alerji" placeholder="Gıda, toz vb." required/><br>
+                  
+                    <input class="btn" type="submit" value="Hayvanlarıma Kaydet" /><br>
+                </form>
+            </div>
+      </body>
+</html>
+
