@@ -1,2 +1,4 @@
-# is_ekip_yonetim_sistemi_KDS
-a decision support system project for manage business and crew
+# e-appointment system for pets
+# all rights deserved: Hazal Nur ASMA
+
+# DO NOT COPY OR USE.
