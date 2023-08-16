@@ -1,4 +1,4 @@
 # e-appointment system for pets
-# all rights deserves: Hazal Nur ASMA
+# all rights deserved: Hazal Nur ASMA
 
 # DO NOT COPY OR USE.
