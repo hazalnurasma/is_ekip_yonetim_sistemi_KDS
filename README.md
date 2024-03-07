@@ -1,4 +1,4 @@
-# e-appointment system for pets
-# all rights deserved: Hazal Nur ASMA
+# VetFinder | E-appointment system for pets
+# All rights deserved: Hazal Nur Asma
 
-# DO NOT COPY OR USE.
+Do not copy or use. 
